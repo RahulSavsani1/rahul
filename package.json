@@ -1,4 +1,5 @@
 {
+  "homepage": "https://RahulSavsani1.github.io/rahul",
   "name": "rahul",
   "version": "0.1.0",
   "private": true,
@@ -38,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.2"
   }
 }
