@@ -50,7 +50,7 @@ export default function About() {
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 text-center py-8 px-10 sm:px-0 ">
           { educa.map((educa,index) =>(
-            <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-500 flex flex-col items-center justify-center">
+            <div key={index} className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-500 flex flex-col items-center justify-center">
             <p className="text-xl font-bold text-white hover:underline">
               {educa.institution}
             </p>
