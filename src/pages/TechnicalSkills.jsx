@@ -95,7 +95,7 @@ export default function TechnicalSkills() {
             techs.map(({ id, src, title, style}) => (
               <div key={id} 
               className={style}>
-                <img src={src} className="w-20 mx-auto"
+                <img src={src} className="w-20 mx-auto" alt='Loading'
                 />
                 <p className="mt-4">{title}</p>
               </div>

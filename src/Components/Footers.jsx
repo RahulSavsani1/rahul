@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiOutlineCopyrightCircle, AiFillFacebook, AiOutlineTwitter, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineCopyrightCircle, AiFillFacebook, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai'
 
 export default function Footer() {
   return (

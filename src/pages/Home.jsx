@@ -17,6 +17,7 @@ export default function Home() {
           <img
             src="./images/Rahul_photo.jpg" 
             className="rounded-2xl mx-auto h-[50vh] md:w-full"
+            alt='Loading'
           />
         </div>
       </div>
