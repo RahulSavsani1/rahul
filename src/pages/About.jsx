@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function About() {
+export const About = () => {
   const educa = [
     {
       institution: "International Institute of Information Technology, Bhubaneswar",
