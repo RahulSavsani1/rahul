@@ -1,12 +1,12 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
-import {About} from "./pages/About";
-import Home from './pages/Home';
-import Project from './pages/Project';
-import TechnicalSkills from './pages/TechnicalSkills';
-import Contact from './pages/Contact';
-import Navbar from './Components/Navbar';
-import Footer from './Components/Footers';
+import {About} from "./pages/About.jsx";
+import Home from './pages/Home.jsx';
+import Project from './pages/Project.jsx';
+import TechnicalSkills from './pages/TechnicalSkills.jsx';
+import Contact from './pages/Contact.jsx';
+import Navbar from './Components/Navbar.jsx';
+import Footer from './Components/Footers.jsx';
 
 function App() {
   const AppRoutes = () => {
