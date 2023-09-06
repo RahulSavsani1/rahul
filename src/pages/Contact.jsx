@@ -1,5 +1,5 @@
 import React from 'react'
-import { AiFillPhone,AiTwotoneMail } from "react-icons/ai";
+import { AiFillPhone,AiTwotoneMail} from "react-icons/ai";
 
 export default function Contact() {
   return (
@@ -13,8 +13,7 @@ export default function Contact() {
           <div className="text-4xl">
               <AiFillPhone />
             </div>
-            <h1 className="font-bold text-xl mb-5">Phone</h1>
-            <h2>+91- 7735016446</h2> 
+            <h1 className="font-bold text-xl mb-5">Phone</h1> 
             <h2>+91- 7608836864</h2>
           </div>
           <div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-500 flex flex-col items-center justify-center">

@@ -79,7 +79,13 @@ export default function TechnicalSkills() {
       src: "./images/vscode.png",
       title: "VS Code",
       style: "shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-sky-500"
-    }
+    },
+    {
+      id: 14,
+      src: "./images/Bootstrap.png",
+      title: "Bootstrap",
+      style: "shadow-md hover:scale-105 duration-500 py-2 rounded-lg shadow-violet-500"
+    },
   
   ]
   return (

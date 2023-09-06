@@ -16,12 +16,6 @@ export default function Project() {
       Techstack: " HTML, CSS, Js, realtime-api’s, Map-box-gl api."
     },
     {
-      name: "Restaurant booking app (Group Project)",
-      link: "https://savrahul.github.io/Restaurent-app/",
-      description: "This app is useful for viewing restaurant menus and ordering food with other necessary features like cart, offers etc. I have worked on creating user interactive frontend and enabling some features using Js.",
-      Techstack: " HTML, CSS, Js"
-    },
-    {
       name: "Ui/Ux design of Personal Portfolio (Desktop Version)",
       link: "https://www.figma.com/proto/izPUOwjRO8jkFIaKM5OQmt/Untitled?type=design&node-id=1-3&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=1%3A3",
       description: "This is an attractive and easy-to-use  portfolio interface using design principles, resulting in an engaging and user-friendly experience.",
