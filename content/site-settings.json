@@ -1,0 +1,12 @@
+{
+  "id": "site-settings",
+  "seoTitle": "Rahul Savsani — Full-Stack Developer",
+  "metaDescription": "Portfolio of Rahul Savsani, a full-stack software developer.",
+  "showAbout": true,
+  "showSkills": true,
+  "showProjects": true,
+  "showExperience": true,
+  "showEducation": true,
+  "showContact": true,
+  "showNavigation": true
+}

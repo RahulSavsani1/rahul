@@ -1,0 +1,26 @@
+[
+  {
+    "id": "github",
+    "label": "GitHub",
+    "platform": "github",
+    "url": "https://github.com/savrahul",
+    "displayOrder": 1,
+    "published": true
+  },
+  {
+    "id": "linkedin",
+    "label": "LinkedIn",
+    "platform": "linkedin",
+    "url": "https://www.linkedin.com/in/rahul-savsani-57198b251",
+    "displayOrder": 2,
+    "published": true
+  },
+  {
+    "id": "email",
+    "label": "Email",
+    "platform": "email",
+    "url": "mailto:savsanirahul1@gmail.com",
+    "displayOrder": 3,
+    "published": true
+  }
+]

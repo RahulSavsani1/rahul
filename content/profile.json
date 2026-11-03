@@ -1,0 +1,15 @@
+{
+  "id": "rahul-savsani",
+  "name": "Rahul Savsani",
+  "title": "Full-Stack Developer",
+  "shortIntroduction": "Software developer creating thoughtful, functional digital products.",
+  "biography": "I’m an IT graduate from IIIT Bhubaneswar and a software developer with 3+ years of experience in full-stack development. I thrive on creating innovative solutions and bringing ideas to life through code. My journey is driven by curiosity and continuous learning. I’m proactive, collaborative, and comfortable bridging technical and non-technical teams to help projects move forward.",
+  "experienceYears": 3,
+  "profileImage": "/images/Rahul_photo.jpg",
+  "resumeUrl": "",
+  "email": "savsanirahul1@gmail.com",
+  "phone": "+91-7608836864",
+  "location": "Bhubaneswar, India",
+  "languages": ["English", "Hindi", "Odia", "Gujarati"],
+  "interests": ["Volleyball", "Travelling", "Esports Gaming"]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "iiit-bhubaneswar",
+    "institution": "International Institute of Information Technology, Bhubaneswar",
+    "degree": "Bachelor of Technology",
+    "fieldOfStudy": "Information Technology",
+    "startYear": "2019",
+    "endYear": "2023",
+    "description": "Undergraduate study in Information Technology.",
+    "location": "Bhubaneswar, India",
+    "details": []
+  },
+  {
+    "id": "odm-public-school",
+    "institution": "ODM Public School",
+    "degree": "Senior Secondary Education",
+    "fieldOfStudy": "Class XII",
+    "startYear": "2017",
+    "endYear": "2019",
+    "description": "Senior secondary education.",
+    "location": "Bhubaneswar, India",
+    "details": []
+  },
+  {
+    "id": "siddhartha-public-school",
+    "institution": "Siddhartha Public School",
+    "degree": "Matriculation",
+    "fieldOfStudy": "School education",
+    "startYear": "2008",
+    "endYear": "2017",
+    "description": "Secondary school education.",
+    "location": "Kumelsingha, India",
+    "details": []
+  }
+]

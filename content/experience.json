@@ -1,0 +1,45 @@
+[
+  {
+    "id": "techisor-software-developer",
+    "company": "Techisor Private Limited",
+    "jobTitle": "Software Developer (MERN)",
+    "startDate": "2023-10",
+    "endDate": null,
+    "currentlyWorking": true,
+    "published": true,
+    "description": "Building and improving CRM, mobile, and field-operation products for Techisor.",
+    "location": "Bangalore, India",
+    "responsibilities": [
+      "Built a multi-dashboard engine with drag-and-drop cards, custom KPIs, and reports.",
+      "Improved frontend responsiveness with memoized React components and on-scroll data fetching.",
+      "Manage CRM modules for leads, deals, contacts, companies, automation, routing, imports, and exports.",
+      "Manage the control panel, user roles, and permissions so access follows assigned features and data.",
+      "Developed the CRM mobile app with React Native and delivered responsive platforms including Niveshartha and Togile.",
+      "Deploy application updates with Jenkins pipelines and AWS services including EC2, CodePipeline, and S3."
+    ],
+    "achievements": [
+      "Made dashboard APIs 75% faster through Redis caching, Kafka queuing, and strategic MongoDB indexing."
+    ],
+    "technologies": [
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "React",
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "Jenkins",
+      "AWS EC2",
+      "AWS CodePipeline",
+      "Amazon S3"
+    ],
+    "projectIds": [
+      "techisor-crm",
+      "onfield-360",
+      "callzap-backend",
+      "centralized-billing",
+      "sentiment-analysis",
+      "postman-collections"
+    ]
+  }
+]

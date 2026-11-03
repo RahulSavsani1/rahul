@@ -1,0 +1,226 @@
+[
+  {
+    "id": "html5",
+    "name": "HTML5",
+    "category": "Frontend",
+    "icon": "html5",
+    "displayOrder": 1,
+    "visible": true
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "category": "Frontend",
+    "icon": "css3",
+    "displayOrder": 2,
+    "visible": true
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Frontend",
+    "icon": "javascript",
+    "displayOrder": 3,
+    "visible": true
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Frontend",
+    "icon": "typescript",
+    "displayOrder": 4,
+    "visible": true
+  },
+  {
+    "id": "react",
+    "name": "React.js",
+    "category": "Frontend",
+    "icon": "react",
+    "displayOrder": 5,
+    "visible": true
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "category": "Frontend",
+    "icon": "nextjs",
+    "displayOrder": 6,
+    "visible": true
+  },
+  {
+    "id": "react-native",
+    "name": "React Native",
+    "category": "Mobile Development",
+    "icon": "react-native",
+    "displayOrder": 7,
+    "visible": true
+  },
+  {
+    "id": "context",
+    "name": "Context",
+    "category": "Frontend",
+    "icon": "react-context",
+    "displayOrder": 7,
+    "visible": true
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "category": "Backend",
+    "icon": "nodejs",
+    "displayOrder": 8,
+    "visible": true
+  },
+  {
+    "id": "express",
+    "name": "Express.js",
+    "category": "Backend",
+    "icon": "express",
+    "displayOrder": 9,
+    "visible": true
+  },
+  {
+    "id": "rest-apis",
+    "name": "REST APIs",
+    "category": "Backend",
+    "icon": "api",
+    "displayOrder": 10,
+    "visible": true
+  },
+  {
+    "id": "socketio",
+    "name": "Socket.io",
+    "category": "Backend",
+    "icon": "socketio",
+    "displayOrder": 11,
+    "visible": true
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Backend",
+    "icon": "redis",
+    "displayOrder": 12,
+    "visible": true
+  },
+  {
+    "id": "kafka",
+    "name": "Kafka",
+    "category": "Backend",
+    "icon": "kafka",
+    "displayOrder": 13,
+    "visible": true
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Database",
+    "icon": "mongodb",
+    "displayOrder": 14,
+    "visible": true
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "category": "Database",
+    "icon": "mysql",
+    "displayOrder": 15,
+    "visible": true
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "category": "Frontend",
+    "icon": "bootstrap",
+    "displayOrder": 16,
+    "visible": true
+  },
+  {
+    "id": "tailwind",
+    "name": "Tailwind CSS",
+    "category": "Frontend",
+    "icon": "tailwind",
+    "displayOrder": 17,
+    "visible": true
+  },
+  {
+    "id": "mui",
+    "name": "Material UI",
+    "category": "Frontend",
+    "icon": "mui",
+    "displayOrder": 18,
+    "visible": true
+  },
+  {
+    "id": "netlify",
+    "name": "Netlify",
+    "category": "Cloud",
+    "icon": "netlify",
+    "displayOrder": 19,
+    "visible": true
+  },
+  {
+    "id": "render",
+    "name": "Render",
+    "category": "Cloud",
+    "icon": "render",
+    "displayOrder": 20,
+    "visible": true
+  },
+  {
+    "id": "aws",
+    "name": "AWS",
+    "category": "Cloud",
+    "icon": "aws",
+    "displayOrder": 21,
+    "visible": true
+  },
+  {
+    "id": "git",
+    "name": "Git",
+    "category": "Tools",
+    "icon": "git",
+    "displayOrder": 22,
+    "visible": true
+  },
+  {
+    "id": "github",
+    "name": "GitHub",
+    "category": "Tools",
+    "icon": "github",
+    "displayOrder": 23,
+    "visible": true
+  },
+  {
+    "id": "integrations",
+    "name": "Third-party integrations",
+    "category": "Other",
+    "icon": "integrations",
+    "displayOrder": 24,
+    "visible": true
+  },
+  {
+    "id": "sprints",
+    "name": "Sprints",
+    "category": "Tools",
+    "icon": "sprints",
+    "displayOrder": 25,
+    "visible": true
+  },
+  {
+    "id": "postman",
+    "name": "Postman",
+    "category": "Tools",
+    "icon": "postman",
+    "displayOrder": 26,
+    "visible": true
+  },
+  {
+    "id": "bugasura",
+    "name": "Bugasura",
+    "category": "Tools",
+    "icon": "bugasura",
+    "displayOrder": 27,
+    "visible": true
+  }
+]
