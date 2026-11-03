@@ -17,7 +17,6 @@ const styles = {
   socials: "socials",
   portrait: "portrait",
   portraitFrame: "portraitFrame",
-  stamp: "stamp",
   section: "section",
   sectionLabel: "sectionLabel",
   aboutGrid: "aboutGrid",
@@ -180,7 +179,7 @@ export default function Home() {
                 src="/images/Rahul_photo.jpg"
                 alt="Rahul Savsani"
                 fill
-                priority
+                preload
                 sizes="(max-width:700px) 80vw,38vw"
               />
             </div>
@@ -367,10 +366,6 @@ export default function Home() {
           </section>
         )}
       </main>
-      <footer>
-        <span>© 2024 Rahul Savsani</span>
-        <span>Designed & built with care</span>
-      </footer>
     </div>
   );
 }

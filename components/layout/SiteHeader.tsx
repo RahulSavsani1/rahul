@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { content } from "../../lib/content/static";
 
@@ -20,8 +21,8 @@ export default function SiteHeader() {
 
   return (
     <header className="siteHeader">
-      <Link className="siteLogo" href="/">
-        RS<span>.</span>
+      <Link className="siteLogo" href="/" aria-label="Rahul Savsani home">
+        <Image src="/favicon.svg" alt="" width={36} height={36} />
       </Link>
       <button
         className="siteMenuToggle"

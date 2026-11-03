@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;500;600;700;800&family=Instrument+Serif:ital@0;1&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,7 +13,7 @@ body {
   overflow-x: hidden;
   background: #100e17;
   color: #f5f2ee;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-manrope), sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -48,17 +46,14 @@ button {
   background: #100e17e8;
   backdrop-filter: blur(18px);
   color: #f5f2ee;
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-manrope), sans-serif;
 }
 
 .siteLogo {
+  display: block;
+  width: 36px;
+  height: 36px;
   color: inherit;
-  font-weight: 800;
-  letter-spacing: -0.08em;
-}
-
-.siteLogo span {
-  color: #ff8b72;
 }
 
 .siteNav {
@@ -70,7 +65,7 @@ button {
 .siteNav a {
   color: #b5afbd;
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   text-transform: uppercase;
   transition: color 0.2s ease;
@@ -94,7 +89,7 @@ button {
   padding: 23px 32px;
   color: #b5afbd;
   font:
-    9px "DM Mono",
+    9px var(--font-dm-mono),
     monospace;
 }
 
@@ -131,7 +126,7 @@ button {
     background: transparent;
     color: inherit;
     font:
-      10px "DM Mono",
+      10px var(--font-dm-mono),
       monospace;
     text-transform: uppercase;
   }

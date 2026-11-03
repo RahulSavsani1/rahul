@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="16" fill="#100e17" />
+  <text
+    x="6"
+    y="44"
+    fill="#f5f2ee"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="34"
+    font-weight="800"
+    letter-spacing="-2.7"
+  >
+    RS<tspan fill="#ff8b72">.</tspan>
+  </text>
+</svg>

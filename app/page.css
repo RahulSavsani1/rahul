@@ -14,7 +14,7 @@
   background:
     radial-gradient(ellipse at 78% -8%, #30244288, transparent 43%),
     radial-gradient(ellipse at 0% 44%, #201b2d65, transparent 44%), var(--bg);
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-manrope), sans-serif;
 }
 .site::before {
   position: fixed;
@@ -46,20 +46,6 @@
   transform: translate3d(calc(var(--mx, 52vw) - 300px), calc(var(--my, 40vh) - 300px), 0);
   will-change: transform;
 }
-.header {
-  position: sticky;
-  z-index: 5;
-  height: 82px;
-  max-width: 1280px;
-  margin: auto;
-  padding: 0 42px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid color-mix(in srgb, var(--text) 13%, transparent);
-  background: color-mix(in srgb, var(--bg) 86%, transparent);
-  backdrop-filter: blur(18px);
-}
 .readingProgress {
   position: fixed;
   z-index: 100;
@@ -73,8 +59,7 @@
   box-shadow: 0 0 12px color-mix(in srgb, var(--accent) 55%, transparent);
   transition: transform 0.16s linear;
 }
-.site main,
-.site footer {
+.site main {
   position: relative;
   z-index: 1;
 }
@@ -106,43 +91,6 @@
   height: 100%;
   mix-blend-mode: screen;
   pointer-events: none;
-}
-.logo {
-  font:
-    700 24px "Manrope",
-    sans-serif;
-  letter-spacing: -0.08em;
-}
-.logo span {
-  color: var(--accent);
-}
-.nav {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-.nav a,
-.menuButton {
-  color: var(--muted);
-  font:
-    11px "DM Mono",
-    monospace;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-.nav a {
-  transition: color 0.2s ease;
-}
-.nav a:hover,
-.menuButton {
-  padding: 8px;
-  border: 0;
-  background: transparent;
-  cursor: pointer;
-  font-size: 18px;
-}
-.menuButton {
-  display: none;
 }
 .hero,
 .section,
@@ -193,7 +141,7 @@
 .sectionLabel {
   color: var(--accent-2);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   letter-spacing: 0.19em;
   text-transform: uppercase;
@@ -202,7 +150,7 @@
   max-width: 750px;
   margin: 26px 0;
   font:
-    500 clamp(54px, 7.2vw, 100px)/0.96 "Instrument Serif",
+    500 clamp(54px, 7.2vw, 100px)/0.96 var(--font-instrument-serif),
     Georgia,
     serif;
   letter-spacing: -0.045em;
@@ -263,7 +211,7 @@ h2 em {
   gap: 24px;
   color: var(--muted);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -325,7 +273,7 @@ h2 em {
 .section h2,
 .contact h2 {
   font:
-    500 clamp(40px, 5.4vw, 72px)/1.02 "Instrument Serif",
+    500 clamp(40px, 5.4vw, 72px)/1.02 var(--font-instrument-serif),
     Georgia,
     serif;
   letter-spacing: -0.035em;
@@ -350,7 +298,7 @@ h2 em {
   margin-bottom: 10px;
   color: var(--accent-2);
   font:
-    500 17px "Instrument Serif",
+    500 17px var(--font-instrument-serif),
     Georgia,
     serif;
 }
@@ -375,7 +323,7 @@ h2 em {
   margin-top: 32px;
   color: var(--muted);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -385,7 +333,7 @@ h2 em {
   margin-bottom: 5px;
   color: var(--accent-2);
   font:
-    500 28px "Instrument Serif",
+    500 28px var(--font-instrument-serif),
     Georgia,
     serif;
 }
@@ -428,7 +376,7 @@ h2 em {
   border-radius: 999px;
   background: transparent;
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   cursor: pointer;
   transition: 0.2s ease;
@@ -461,7 +409,7 @@ h2 em {
   border-radius: 3px;
   color: var(--muted);
   font:
-    9px "DM Mono",
+    9px var(--font-dm-mono),
     monospace;
 }
 .projectGrid {
@@ -510,14 +458,14 @@ h2 em {
   position: relative;
   color: var(--accent-2);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
 }
 .projectCard h3 {
   position: relative;
   margin: 28px 0 10px;
   font:
-    500 30px "Instrument Serif",
+    500 30px var(--font-instrument-serif),
     Georgia,
     serif;
 }
@@ -600,7 +548,7 @@ h2 em {
   gap: 10px;
   color: var(--accent-2);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -614,7 +562,7 @@ h2 em {
 .journeyCard h3 {
   margin-top: 16px;
   font:
-    500 27px/1.1 "Instrument Serif",
+    500 27px/1.1 var(--font-instrument-serif),
     Georgia,
     serif;
 }
@@ -644,7 +592,7 @@ h2 em {
   color: var(--accent-2);
   cursor: pointer;
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -666,7 +614,7 @@ h2 em {
   border-radius: 3px;
   color: var(--muted);
   font:
-    9px "DM Mono",
+    9px var(--font-dm-mono),
     monospace;
 }
 .journeyProjectSummary {
@@ -676,7 +624,7 @@ h2 em {
   margin-bottom: 9px;
   color: var(--text);
   font:
-    500 18px "Instrument Serif",
+    500 18px var(--font-instrument-serif),
     Georgia,
     serif;
 }
@@ -693,7 +641,7 @@ h2 em {
   border-radius: 3px;
   color: var(--accent);
   font:
-    9px "DM Mono",
+    9px var(--font-dm-mono),
     monospace;
   line-height: 1.5;
 }
@@ -709,7 +657,7 @@ h2 em {
 .journeyProjects > h4 {
   color: var(--text);
   font:
-    500 19px "Instrument Serif",
+    500 19px var(--font-instrument-serif),
     Georgia,
     serif;
 }
@@ -727,7 +675,7 @@ h2 em {
   margin-top: 12px;
   color: var(--accent);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
 }
 .journeyEmpty {
@@ -749,7 +697,7 @@ h2 em {
   margin-top: 12px;
   color: var(--accent);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
 }
 .contact {
@@ -778,7 +726,7 @@ h2 em {
   border-bottom: 1px solid var(--accent-2);
   color: var(--accent-2);
   font:
-    500 clamp(20px, 3vw, 34px) "Instrument Serif",
+    500 clamp(20px, 3vw, 34px) var(--font-instrument-serif),
     Georgia,
     serif;
 }
@@ -788,21 +736,9 @@ h2 em {
   gap: 24px;
   color: var(--muted);
   font:
-    10px "DM Mono",
+    10px var(--font-dm-mono),
     monospace;
   text-transform: uppercase;
-}
-footer {
-  max-width: 1200px;
-  margin: auto;
-  padding: 25px 32px;
-  display: flex;
-  justify-content: space-between;
-  color: var(--muted);
-  font:
-    9px "DM Mono",
-    monospace;
-  letter-spacing: 0.08em;
 }
 .cursorOrb {
   position: fixed;
@@ -867,13 +803,23 @@ footer {
     rotate: 360deg;
   }
 }
-@media (hover: none), (prefers-reduced-motion: reduce) {
+@media (hover: none) {
   .site::after,
   .cursorAura,
   .cursorTrailCanvas,
   .cursorOrb {
     display: none;
   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site::after,
+  .cursorAura,
+  .cursorTrailCanvas,
+  .cursorOrb {
+    display: none;
+  }
+
   *,
   *::before,
   *::after {
@@ -884,29 +830,6 @@ footer {
   }
 }
 @media (max-width: 760px) {
-  .header {
-    height: 72px;
-    padding: 0 20px;
-  }
-  .menuButton {
-    display: block;
-  }
-  .nav {
-    display: none;
-    position: absolute;
-    top: 72px;
-    left: 0;
-    right: 0;
-    padding: 24px;
-    flex-direction: column;
-    gap: 22px;
-    background: var(--panel);
-    border: 1px solid color-mix(in srgb, var(--text) 12%, transparent);
-    border-radius: 0 0 8px 8px;
-  }
-  .nav.open {
-    display: flex;
-  }
   .hero {
     min-height: auto;
     grid-template-columns: 1fr;
@@ -992,10 +915,6 @@ footer {
   .contactLinks {
     flex-wrap: wrap;
   }
-  footer {
-    padding: 22px;
-    gap: 12px;
-  }
 }
 @media (max-width: 430px) {
   .actions {
@@ -1008,8 +927,4 @@ footer {
   .skillGrid {
     grid-template-columns: 1fr;
   }
-}
-
-.site > footer {
-  display: none;
 }
